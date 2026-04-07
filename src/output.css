@@ -1323,6 +1323,10 @@
     --tw-duration: 1000ms;
     transition-duration: 1000ms;
   }
+  .duration-3000 {
+    --tw-duration: 3000ms;
+    transition-duration: 3000ms;
+  }
   .ease-out {
     --tw-ease: var(--ease-out);
     transition-timing-function: var(--ease-out);
