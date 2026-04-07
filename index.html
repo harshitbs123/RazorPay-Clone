@@ -8,6 +8,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
     />
+     <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -20,7 +21,7 @@
   </head>
   <body>
     <nav
-      class="sticky top-0 z-500 bg-white/50 backdrop-blur-md border-b border-gray-200/50"
+      class="sticky top-0 z-50 bg-white/50 backdrop-blur-md border-b border-gray-200/50"
     >
       <div
         class="h-[74px] w-[1184px] mx-auto flex items-center justify-between gap-x-1"
@@ -114,7 +115,7 @@
           alt=""
           class="h-[12px] cursor-pointer"
         />
-        <button class="border p-2 text-blue-700 rounded-lg cursor-pointer px-4">
+        <button class="border p-2 text-blue-700 rounded-lg cursor-pointer px-4 hover:bg-blue-100 transition duration-500">
           Login
         </button>
         <button
@@ -243,7 +244,7 @@
       </div>
     </div>
     <!-- sprint -->
-    <div class="relative mt-20">
+    <div class="relative mt-20" data-aos="fade-up" data-aos-duration="1500">
       <img src="assets/framerWYoR9VIihk6GZ9yEWNgoXNHs.avif" class="w-full" />
       <div class="absolute top-8 left-8">
         <p class="text-white text-6xl font-bold">SPRINT/26</p>
@@ -261,7 +262,7 @@
     </div>
 
     <!-- finance platform -->
-    <div class="w-[1184px] mx-auto m-20">
+    <div class="w-[1184px] mx-auto m-20" data-aos="fade-up" data-aos-duration="1500">
       <p class="text-6xl font-semibold">
         The all in one <span class="text-lime-500">finance platform </span
         ><br />
@@ -282,8 +283,8 @@
     </div>
 
     <!--  main developer section -->
-    <div class="bg-[#f1f5fb] h-[1900px]">
-      <div class="bg-[#032a3e] h-[1200px]">
+    <div class="bg-[#f1f5fb] h-[2000px]">
+      <div class="bg-[#032a3e] h-[1300px]">
         <p>&nbsp;</p>
         <!-- strip -->
         <div class="overflow-hidden whitespace-nowrap w-full bg-[#019e5c] py-3">
@@ -320,14 +321,14 @@
         <!--remaining -->
         <div class="w-[1184px] mx-auto mt-30">
           <!-- text -->
-          <p class="text-white text-6xl font-semibold">
+          <p class="text-white text-6xl font-semibold" data-aos="fade-up" data-aos-duration="1500">
             Razorpay is built for <br />
             <span class="text-[#019e5c] mb-3">
               &lt;developers by developers&gt;
             </span>
           </p>
           <!-- 3 cards -->
-          <div class="flex gap-4 mt-15">
+          <div class="flex gap-4 mt-15" data-aos="zoom-in" data-aos-duration="1500">
             <div class="flex-1 min-w-0 text-white">
               <i class="fa-regular fa-clipboard text-2xl"></i>
               <p class="text-xl mt-3">Intergrations</p>
@@ -364,9 +365,9 @@
           </div>
           <!-- try coding-->
 
-          <div class="flex mt-25">
+          <div class="flex mt-50">
             <!-- left -->
-            <div class="flex-1">
+            <div class="flex-1" data-aos="fade-right" data-aos-duration="1500">
               <p class="text-white text-3xl font-semibold">Try it out</p>
               <p class="text-white text-3xl font-semibold mt-2">
                 For Yourself &nbsp; <i class="fa-solid fa-location-arrow"></i>
@@ -374,7 +375,7 @@
             </div>
             <!-- right -->
             <div
-              class="group relative overflow-hidden bg-[#1a3b4d] flex-2 justify-center py-6 px-3 border border-gray-500 border-[0.5px] rounded-3xl"
+              class="group relative overflow-hidden bg-[#1a3b4d] flex-2 justify-center py-6 px-3 border border-gray-500 border-[0.5px] rounded-3xl" data-aos="left" data-aos-duration="1500"
             >
               <!-- nav div -->
               <div class="flex justify-between items-center">
@@ -504,14 +505,14 @@
       <div class="max-w-[1184px] mx-auto my-20 px-4">
         <p class="text-xl text-gray-400 mb-4">&lt;what html?&gt;</p>
 
-        <p class="text-3xl md:text-5xl lg:text-6xl font-semibold leading-tight">
+        <p class="text-3xl md:text-5xl lg:text-6xl font-semibold leading-tight" data-aos="fade-up" data-aos-duration="1500">
           <span class="text-[#019e5c]">Not a developer?</span><br />
           Our No-Code products have you covered
         </p>
         <!-- 3 box -->
         <div class="flex gap-x-4 my-10">
-          <div class="flex-1 shadow-lg bg-white">
-            <div class="flex justify-between px-4 py-6 text-2xl items-center">
+          <div class="flex-1 shadow-lg bg-white" data-aos="fade-up" data-aos-duration="1500">
+            <div class="flex justify-between px-4 py-6 text-2xl items-center"> 
               <p class="text-gray-600">Payment Links</p>
               <i class="fa-regular fa-credit-card text-blue-700 text-2xl"></i>
             </div>
@@ -532,7 +533,7 @@
             </div>
           </div>
 
-          <div class="flex-1 shadow-lg bg-white">
+          <div class="flex-1 shadow-lg bg-white" data-aos="fade-up" data-aos-duration="1500">
             <div class="flex justify-between px-4 py-6 text-2xl items-center">
               <p class="text-gray-600">Payment Pages</p>
               <i class="fa-regular fa-file-lines text-blue-700 text-2xl"></i>
@@ -554,7 +555,7 @@
               </span>
             </div>
           </div>
-          <div class="flex-1 shadow-lg bg-white">
+          <div class="flex-1 shadow-lg bg-white" data-aos="fade-up" data-aos-duration="1500">
             <div class="flex justify-between px-4 py-6 text-2xl items-center">
               <p class="text-gray-600">Payment Buttons</p>
               <i class="fa-regular fa-square-check text-2xl text-blue-700"></i>
@@ -959,7 +960,7 @@
             Knowledge base
           </li>
           <li class="font-bold mt-10">FIND US ONLINE</li>
-          <li class="h-10">
+          <li class="h-10" data-aos="fade-up" data-aos-duration="1000">
             <i class="fa-brands fa-facebook text-3xl hover:text-blue-800"></i>
             <i
               class="fa-brands fa-x-twitter text-3xl ml-1 hover:text-gray-600"
@@ -996,5 +997,11 @@
       by Razorpay Payments Private Limited (RBI - authorised Payment Aggregator)
       <span class="text-black font-semibold underline ml-4 cursor-pointer hover:text-blue-700"> Know more </span>
     </p>
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+
+<script>
+  AOS.init();
+</script>
+<!--  -->
   </body>
 </html>
